@@ -6,18 +6,23 @@ document.getElementById('formulario').addEventListener("submit", function(event)
 
     const valido = validacao(email);
 
+    const error = document.querySelector('#error');
+    const ok = document.querySelector('#ok');
+
     if(valido == true)
     {
-        alert("Email válido!");
+        ok.style.display = 'flex';
+        error.style.display = 'none';
     }
     else
     {
-        alert("Email inválido");
+        error.style.display = 'flex';
+        ok.style.display = 'none';
     }
 })
 
 function validacao(email)
 {
-    const regex = /[^\s]+@[^\s]+\.+[^\s]/
+    const regex = /^[^\s]+@+[^\s]+\.+[^\s]+$/
     return regex.test(email);
 }

@@ -77,5 +77,20 @@ h1
     font-weight: 900;
     /* margin-right: 30px; */
     box-shadow: 3px 3px black;
-    color:
 }
+
+#error
+{
+    display: none;
+    margin-top: 10px;
+    font-size: 17px;
+    color: red;
+}
+#ok
+{
+    display: none;
+    margin-top: 10px;
+    font-size: 17px;
+    color: seagreen;
+}
+
