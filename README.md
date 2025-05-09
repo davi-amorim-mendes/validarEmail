@@ -1,15 +1,9 @@
 # Validar E-mail
-## ![Image](https://github.com/user-attachments/assets/11eb7a2f-ea3d-4ff9-a47d-9f0da5654f9d)
+## ![Image](https://github.com/user-attachments/assets/01578e52-f8e6-4451-9cf0-35229a390f88)
 ## Sobre:
-Projeto de integração a APIs.
-## Funcionalidades:
-- Favoritar
-- Pesquisar por raça
+O site analisa a formatação do e-mail submitado e indica se é válido ou não.
 ## Linguagens utilizadas:
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 - Javascript
 - Html
 - CSS
-#
-Link da API: https://thecatapi.com/ <br>
-Ícones utilizados: https://fontawesome.com/
